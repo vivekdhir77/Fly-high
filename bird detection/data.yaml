@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['bird']
+
+roboflow:
+  workspace: ryu-myoungwoo
+  project: bird-detection-zqcdr
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ryu-myoungwoo/bird-detection-zqcdr/dataset/5
