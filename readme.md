@@ -1,2 +1,4 @@
-Installed the dataset from kaggle and used ultralytics yolov9 to train the model.
-downloaded the checkpoints from the segment anything website and used sam2 to get the bounding boxes for the birds in the image.
+# Fly High - Real time bird detection and tracking
+
+- Prevent bird collisions into wind turbines or airplanes that are landing/taking off
+- Utilizes YOLO v8 model to detect the birds and use this information to get the birds direction of flight using a custom tracking algorithm. 
