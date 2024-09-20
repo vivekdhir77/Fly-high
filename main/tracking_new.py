@@ -12,7 +12,7 @@ from direction import direction
 model = YOLO('yolov8n.pt')
 
 # Open the video file or capture device
-cap = cv2.VideoCapture("/Users/sansh/Documents/visual_ai/Fly-high-main/fast_birds.mp4")
+cap = cv2.VideoCapture("./birds.mp4")
 
 # Get video FPS
 fps = cap.get(cv2.CAP_PROP_FPS)
